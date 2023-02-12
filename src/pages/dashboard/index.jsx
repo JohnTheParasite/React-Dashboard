@@ -1,7 +1,1 @@
-const { Box } = require('@mui/system');
-
-const Dashboard = () => {
-  return <Box>Dashboard</Box>;
-};
-
-export default Dashboard;
+export { default } from './Dashboard';
