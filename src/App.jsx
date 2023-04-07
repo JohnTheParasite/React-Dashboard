@@ -10,8 +10,8 @@ import Invoices from './pages/invoices';
 import UserCreation from './pages/userCreation';
 import FAQ from './pages/faq';
 import Bar from './pages/Charts/Bar';
+import Pie from './pages/Charts/Pie';
 // import Line from './pages/line';
-// import Pie from './pages/pie';
 
 // import Geography from './pages/geography';
 
@@ -35,7 +35,7 @@ function App() {
               <Route path="/newuser" element={<UserCreation />} />
               <Route path="/faq" element={<FAQ />} />
               <Route path="/bar" element={<Bar />} />
-              {/* <Route path="/pie" element={<Pie />} /> */}
+              <Route path="/pie" element={<Pie />} />
               {/* <Route path="/line" element={<Line />} /> */}
               {/* <Route path="/geography" element={<Geography />} /> */}
             </Routes>
