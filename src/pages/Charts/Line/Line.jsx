@@ -1,17 +1,17 @@
 import { memo } from 'react';
 import { Box } from '@mui/material';
 import Header from '../../../components/Header';
-import BarChart from '../../../components/BarChart';
+import LineChart from '../../../components/LineChart';
 
-const Bar = () => {
+const Line = () => {
   return (
     <Box m="20px">
-      <Header title="Bar Chart" subtitle="Simple Bar Chart" />
+      <Header title="Line Chart" subtitle="Simple Line Chart" />
       <Box height="75vh">
-        <BarChart />
+        <LineChart />
       </Box>
     </Box>
   );
 };
 
-export default memo(Bar);
+export default memo(Line);
